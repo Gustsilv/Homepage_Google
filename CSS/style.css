@@ -1,0 +1,175 @@
+body{
+    max-width: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+/* Cabeçario da pagina */
+.containerCabecario {
+    display: flex;
+    justify-content: end; 
+    align-items: center;
+    padding: 20px;
+  }
+.containerCabecarioBotoes {
+    display: inline-flex;
+    align-items: center;
+    
+}
+.containerCabecarioBotoes a {
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+.containerCabecarioBotoes a:hover{
+    text-decoration: underline;
+}
+/*  Conteúdo principal da pagina */
+.container_Principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_Principal_div {
+    padding: 20px;
+}
+.container_Principal_estrutura{
+    display: flex;
+    z-index: 3;
+}
+.container_Principal_barra_de_pesquisa{
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+}
+.container_Principal_barra_de_pesquisa div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    display: flex;
+    padding: 0 8px 0 0;
+}
+.container_Principal_barra_de_pesquisa div span{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 13px;
+    height: 46px;
+}
+.container_Principal_barra_de_pesquisa div input{
+    font-family: Arial, sans-serif;
+    width: 400px;
+    line-height: 22px;
+    border-bottom: 8px solid transparent;
+    padding-top: 11px;
+    overflow-x: hidden;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 16px;
+    flex: 100%;
+}
+.botao_Ferramenta_Insercao_Texto{
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    line-height: 44px;
+}
+.botao_Ferramenta_Insercao_Texto span{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+.botoes_Barra_De_Pesquisa{
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+.botoes_Barra_De_Pesquisa a img{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+.botoes_Inferiores{
+    padding-top: 18px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.botoes_Inferiores input{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.bloco_Em_branco{
+    height: 135px;
+}
+/* RODAPÉ */
+footer{
+    background: #f2f2f2;
+    margin-bottom: 0;
+}
+.primeira_Linha_Rodape{
+    padding: 6px 30px;
+    border-bottom: 1px solid #d6d7d7;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.segunda_Linha_Rodape{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.segunda_Linha_Rodape_Botoes{
+    text-decoration: none;
+    display: inline-flex;
+    color: black;
+    font-size: 14px;
+    padding: 15px;
+}
+.segunda_Linha_Rodape_Botoes:hover{
+    text-decoration: underline;
+}
